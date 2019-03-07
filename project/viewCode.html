@@ -1,0 +1,198 @@
+<!DOCTYPE html><!--نحل مشكلة المسافة-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/allCss.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/atom-one-dark-reasonable.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <title>View Code</title>
+</head>
+
+<body>
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                        <h3>
+                            My
+                            <small class="text-muted" style="margin-left: -7px">Code</small>
+                        </h3>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+                        aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarColor03">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="NewCode.html">
+                                    <button type="button" class="btn btn-light">+ New Code</button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navlinks" href="Groups.html">
+                                    Groups
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navlinks" href="About.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <form class="form-inline my-2 my-lg-0" action="search.html">
+                                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                                        <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+                                    </form>
+                                </a>
+                            </li>
+                        </ul>
+                        <div>
+                            <span class="nav-icons"><i class="fas fa fa-user"></i>Admin</span>
+                            <span class="nav-icons"><i class="fas fa fa-sign-out-alt"></i>LogOut</span>
+                        </div>
+                    </div>
+                </nav>
+        </header>
+    <main class="container">
+        <div class="code-info">
+            <div class="code-title">
+                <h1>Code Name/Title</h1>
+            </div>
+            <div class="code-desc">
+                <h3> Here we will se the description of our Code</h3>
+            </div>
+            <div class="code-created">
+                <span class="created-date code-icons">
+                    <i class="fas fa fa-calendar-week"></i>
+                    2/03/2019
+                </span>
+                <span class="expired-in code-icons">
+                    <i class="fas fa fa-clock"></i>
+                    1 Week
+                </span>
+            </div>
+            <div class="code-content">
+
+                <div class="card border-light mb-3">
+                    <div class="card-header">
+                        <div class="left">
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="right">
+                            <button class="share button-icons"><i class="fas fa fa-share-alt"></i></button>
+                            <button class="edit button-icons"><i class="fas fa fa-edit"></i></button>
+                            <button class="delete button-icons"><i class="fas fa fa-trash-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <!-- <h4 class="card-title">Secondary card title</h4> -->
+                        <div class="card-text">
+                           
+                                        <pre>
+ <code class="javascript">
+    const ReadMore = class
+   {
+    constructor(
+      {
+        element,
+        index=0,
+        length=3,
+        mask='.'                                 
+       })   
+        {
+          let el = document.querySelector(element)
+          let extracted_string = el.innerText;
+          let sliced_string = extracted_string.slice(0,index)
+          let repeated_Mask = ''
+                                                
+          for(let i=1;i<=length;i++) { repeated_Mask+=mask } el.innerHTML=`${sliced_string+repeated_Mask}<a href="#"
+             id="readMore">ReadMore</a>`
+             let read = document.querySelector(element+' #readMore').addEventListener('click',()=>
+            {
+              el.innerHTML = extracted_string
+            })
+        }
+    }
+    const ReadMore = class
+    {
+     constructor(
+       {
+         element,
+         index=0,
+         length=3,
+         mask='.'                                 
+        })   
+         {
+           let el = document.querySelector(element)
+           let extracted_string = el.innerText;
+           let sliced_string = extracted_string.slice(0,index)
+           let repeated_Mask = ''
+                                                 
+           for(let i=1;i<=length;i++) { repeated_Mask+=mask } el.innerHTML=`${sliced_string+repeated_Mask}<a href="#"
+              id="readMore">ReadMore</a>`
+              let read = document.querySelector(element+' #readMore').addEventListener('click',()=>
+             {
+               el.innerHTML = extracted_string
+             })
+         }
+     }
+     const ReadMore = class
+     {
+      constructor(
+        {
+          element,
+          index=0,
+          length=3,
+          mask='.'                                 
+         })   
+          {
+            let el = document.querySelector(element)
+            let extracted_string = el.innerText;
+            let sliced_string = extracted_string.slice(0,index)
+            let repeated_Mask = ''
+                                                  
+            for(let i=1;i<=length;i++) { repeated_Mask+=mask } el.innerHTML=`${sliced_string+repeated_Mask}<a href="#"
+               id="readMore">ReadMore</a>`
+               let read = document.querySelector(element+' #readMore').addEventListener('click',()=>
+              {
+                el.innerHTML = extracted_string
+              })
+          }
+      }
+</code>
+                                           </pre>
+                               
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    //حدث DOMContentLoaded 
+    //يعمل عند اكتمال تحميل وتنفيذ ال html 
+    //في الصفحة
+document.addEventListener('DOMContentLoaded', function(event) {
+ // html code نعرف متغير نسند له عنصر ال    
+ var block = document.querySelector('pre code') 
+    //نرسل العنصر ك باراميتر للمكتبة المتخصصه بتنسيق الاكواد
+    hljs.highlightBlock(block);
+    // الخاص بالمكتبة لانه كان يسبب مشاكل في قياسات الشاشةhljs هنا حذفنا كلاس 
+    block.classList.remove('hljs')
+    //هنا قمنا بتغيير لون الخلفية لعنصر الكود
+    block.style.backGroundColor='#282c34'
+    // وهنا قمنا بتغيير لون الخط لعنصر الكود
+    block.style.color="#abb2bf"
+    //هنا قمنا بتفعيل الشريط الافقي في حال كان الكود اطول من عرض العنصر
+    block.parentNode.style.overflowX='auto'
+    
+});
+</script>
+</html>

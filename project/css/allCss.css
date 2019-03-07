@@ -1,0 +1,166 @@
+a.viewCode {
+  text-decoration: none !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+  }
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: transparent !important;
+      color:white;
+      outline: none !important;
+      border: none !important;
+      cursor: pointer;
+      font-size: 27px;
+    }
+    button:focus{
+      outline: none !important;
+      border: none !important;
+    }
+    button:hover{
+     background:  #444 !important;
+      color:white;
+      transition: all ease-in-out .5s;
+    }
+    button a{
+      text-decoration:none;
+      font-size:24px
+    }
+    button:hover {
+      opacity:1
+    }
+    button[share]:hover,button[send-code="true"]:hover{
+      background: rgba(44, 130, 201, 1) !important;
+    }
+    button.btn-login{
+      background: rgba(44, 130, 201, 1) !important;
+    }
+    button[send-code="false"]:hover{
+      background-color:red !important; 
+    }
+    button[send-code="false"]::after{
+     content:'Please Complete The Form';
+     color:whiet;
+    }
+    table{
+      text-align: center ;
+    }
+  
+/* nav */
+.navlinks {
+  margin-top: 6px;
+}
+.nav-icons{
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.nav-icons i {
+  margin-right: 5px; 
+}
+/*About*/
+.owners{
+  list-style:none;
+}
+/* new code */
+.card-body{
+  padding: 0;
+}
+/* Search */
+.front{
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    text-align: center;
+    font-family: Arial, Tahoma
+  }
+ main {
+   margin:25px auto;
+ }
+
+.front-header{
+    position: relative;
+    top:-25px;
+    width: 100%;
+    height: 40px;
+    background-color: #bdbdbd;
+    margin:  auto;
+    border-radius: 10px;
+    text-align: center center;
+  }
+.front-header h3{
+    /* padding-top: 10px; */
+    color: #444;
+  }
+.front p{
+    padding: 5%;
+    text-align: left;
+    color:#444;    
+}
+/* view groups */
+.group{  
+  background-color: #EEE;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  text-align: center;
+  font-family: Arial, Tahoma
+}
+
+
+.group-header{
+  position: relative;
+  top:-25px;
+  width: 100%;
+  height: 40px;
+  background-color: #bdbdbd;
+  margin:  auto;
+  border-radius: 10px;
+  text-align: center center;
+}
+.group-header .profile{
+  padding-top: 0px;
+  color: #444;
+  font-size: 50px;
+  background-color: transparent;
+}
+
+.group p{
+  padding: 5%;
+  text-align: left;
+  color:#444;    
+}
+
+.group-body h3{
+  color:#444 !important;
+}
+.group-body footer{
+  float: left;
+}
+/* view code */
+.left{
+float: left;
+}
+.left > h4{
+  margin-top:5px;
+}
+.right{
+float: right;
+}
+.code-icons{
+  margin: 0 5px;
+  font-size: 16px;
+}
+button .button-icons{
+  margin:0 7px;
+  font-size-adjust: 18px !important;
+}
+.code-content{
+  margin-top: 15px;
+}
+code{
+  font-size:18px !important;
+}
